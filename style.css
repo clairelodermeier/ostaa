@@ -1,0 +1,176 @@
+/*
+    Claire Lodermeier
+    The purpose of this file is to provide styling for an online marketplace web application. 
+    It styles three html pages -- index.html, home.html, and post.html. It formats user input
+    fields, displayed listings, and overall page setup. 
+*/
+
+body {
+    background-color: rgb(185, 212, 242);
+}
+
+h1 {
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 40px;
+    color: rgb(28, 28, 173);
+}
+
+h2 {
+    margin: 20px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+h3 {
+    font-size: 25px;
+}
+
+h4 {
+    font-size: 20px;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+
+
+ul {
+    list-style: none;
+    margin-bottom: 100px;
+    width: 50%
+}
+
+li {
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+button {
+    font-family: times;
+    font-size: 16px;
+    padding: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-bottom: 50px;
+    display: inline-block;
+
+}
+
+input {
+    width: 200px;
+    height: 25px;
+}
+
+label {
+    font-size: 20px;
+}
+
+table {
+    position: fixed;
+    top: 100px;
+    left: 0px;
+    background-color: rgb(200, 234, 200);
+    border-collapse: collapse;
+    width: 100%;
+    margin: 0px;
+    height: 90%;
+}
+
+tr {
+    position: relative;
+
+}
+
+td {
+    position: relative;
+    width: 50%;
+    border: 3px;
+    border-color: gray;
+    border-style: solid;
+}
+
+a {
+    color: black;
+    border: 1px;
+    border-style: solid;
+    border-color: black;
+    padding: 10px;
+    display: inline;
+    background-color: white;
+    margin: 10px;
+
+
+}
+
+.nav {
+    position: fixed;
+    right: 0;
+    margin: 10px;
+    width: auto;
+
+}
+
+.image {
+    width: 300px;
+}
+
+.firstTitle {
+    position: fixed;
+    left: 50px;
+    top: 100px;
+}
+
+.firstList {
+    position: fixed;
+    top: 150px;
+}
+
+.secondTitle {
+    position: fixed;
+    left: 50px;
+    top: 400px;
+}
+
+.secondList {
+    position: fixed;
+    top: 450px;
+}
+
+#homeList {
+    position: fixed;
+    top: 200px;
+}
+
+#createPostButton {
+    margin-left: 100px;
+}
+
+.box {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    padding: 30px;
+    border: 1px;
+    border-color: black;
+    border-style: solid;
+
+}
+
+#welcome {
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 20px;
+    margin-left: 30px;
+    margin-bottom: 50px;
+
+}
+
+#right {
+    position: relative;
+    height: 100%;
+    overflow: auto;
+}
+
+#left {
+    position: relative;
+}
