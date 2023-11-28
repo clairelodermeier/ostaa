@@ -1,0 +1,57 @@
+<!--
+    Claire Lodermeier
+    The purpose of this file is to create the home screen for ostaa, an online marketplace. 
+    It includes 2 columns with input options on the left for navigating the site, and a display
+    column on the right for showing listings. There is a heading on the top.
+-->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>ostaa</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="UTF-8">
+</head>
+
+<body>
+
+    <h1>Ostaa</h1>
+    <div class="nav">
+        <a href='/index.html'> Login </a>
+    </div>
+
+    <table>
+        <tr>
+            <td id='left'>
+                <h2 id='welcome'>Welcome! What would you like to do?</h2>
+
+                <ul id='homeList'>
+                    <li>
+                        <input type='text' id='searchTerm'>
+                        <button id="searchButton">Search Listings</button>
+                    </li>
+                    <li>
+                        <button id="viewListings">View your listings</button>
+                    </li>
+                    <li>
+                        <button id="viewPurchases">View your purchases</button>
+                    </li>
+                    <li>
+                        <button id="createListing">Create a listing</button>
+
+                    </li>
+                </ul>
+            </td>
+            <td>
+                <div id='right'> </div>
+
+            </td>
+        </tr>
+    </table>
+
+    <script src="./home.js"></script>
+
+</body>
+
+</html>
